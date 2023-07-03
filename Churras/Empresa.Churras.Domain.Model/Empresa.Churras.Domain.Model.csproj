@@ -10,4 +10,8 @@
     <ProjectReference Include="..\..\Kernel\Kernel.Domain.Model\Kernel.Domain.Model.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Diagrams\" />
+  </ItemGroup>
+
 </Project>
