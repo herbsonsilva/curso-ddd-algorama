@@ -1,1 +1,1 @@
-﻿
+﻿global using Kernel.Domain.Model.Entities;
