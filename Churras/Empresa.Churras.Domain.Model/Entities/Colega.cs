@@ -2,6 +2,6 @@
 
 public class Colega : EntityKeySeq
 {
-    public string? Nome { get; private set; }
-    public string? Endereco { get; private set; }
+    public string Nome { get; private set; }
+    public Endereco Endereco { get; private set; }
 }

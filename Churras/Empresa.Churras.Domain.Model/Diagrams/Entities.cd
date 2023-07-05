@@ -6,25 +6,53 @@
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAEAA=</HashCode>
       <FileName>Entities\Colega.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Endereco" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Empresa.Churras.Domain.Model.Entities.Evento">
-    <Position X="3.25" Y="0.5" Width="2" />
+    <Position X="3.5" Y="0.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAQAACAAAAAAAgAAAAAAAAAAAAAAAAAAIAAEAAAAA=</HashCode>
       <FileName>Entities\Evento.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="DonoDaCasa" />
+      <Property Name="Periodo" />
     </ShowAsAssociation>
     <ShowAsCollectionAssociation>
       <Property Name="ColegasConfirmados" />
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Empresa.Churras.Domain.Model.Entities.EventoColegaConfirmado">
-    <Position X="3.25" Y="3" Width="2" />
+    <Position X="3.5" Y="3" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAACAAAAAA=</HashCode>
       <FileName>Entities\EventoColegaConfirmado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Empresa.Churras.Domain.Model.ValueObjects.Periodo">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>ValueObjects\Periodo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Empresa.Churras.Domain.Model.ValueObjects.Endereco">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAABAACIEAAAAAACAAAAAAAAAAAAAAAABAAg=</HashCode>
+      <FileName>ValueObjects\Endereco.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Coordenada" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Empresa.Churras.Domain.Model.ValueObjects.Coordenada" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ValueObjects\Coordenada.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
