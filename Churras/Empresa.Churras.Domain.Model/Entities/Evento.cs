@@ -1,6 +1,4 @@
-﻿using Empresa.Churras.Domain.Model.ValueObjects;
-
-namespace Empresa.Churras.Domain.Model.Entities;
+﻿namespace Empresa.Churras.Domain.Model.Entities;
 
 public class Evento : EntityKeySeq
 {
