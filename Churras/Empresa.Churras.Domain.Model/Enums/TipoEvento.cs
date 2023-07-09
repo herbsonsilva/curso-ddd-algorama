@@ -1,6 +1,4 @@
-﻿using System.ComponentModel;
-
-namespace Empresa.Churras.Domain.Model.Enums;
+﻿namespace Empresa.Churras.Domain.Model.Enums;
 
 public enum TipoEvento
 {
